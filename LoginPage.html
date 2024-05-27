@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagi Berkah - Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #800000;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-size: 24px;
+        }
+        .header .profile-icon {
+            float: right;
+            margin-right: 20px;
+            font-size: 24px;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px);
+            background-color: #f8f5e4;
+            flex-direction: column;
+        }
+        .form-container {
+            background-color: #f8f5e4;
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container img {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 100px;
+        }
+        .form-container input[type="text"], 
+        .form-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #e0e0e0;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ccc;
+            font-size: 16px;
+        }
+        .form-container .register-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .form-container .register-link a {
+            color: green;
+            text-decoration: none;
+        }
+        .footer {
+            background-color: #800000;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    Bagi Berkah
+    <span class="profile-icon">👤</span>
+</div>
+
+<div class="content">
+    <div class="form-container">
+        <img src="https://via.placeholder.com/100" alt="Profile Icon">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button type="submit">Login</button>
+        <div class="register-link">
+            Belum punya akun? <a href="#">Register</a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="social-icons">
+        <img src="https://via.placeholder.com/30" alt="Twitter">
+        <img src="https://via.placeholder.com/30" alt="Facebook">
+        <img src="https://via.placeholder.com/30" alt="Instagram">
+    </div>
+</div>
+
+</body>
+</html>
