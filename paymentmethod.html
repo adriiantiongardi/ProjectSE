@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagi Berkah - payment method</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #faf3d9;
+        }
+        .header {
+            background-color: #820000;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .header .user-icon {
+            width: 40px;
+            height: 40px;
+            border: 2px solid white;
+            border-radius: 50%;
+            background-image: url('user-icon.png'); /* Replace with actual icon URL */
+            background-size: cover;
+            background-position: center;
+            margin-right: 20px;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            height: calc(100vh - 100px); /* Adjust height to fit the screen */
+        }
+        .content .payment-methods {
+            background-color: #e6ded4;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .content .payment-methods h2 {
+            margin-top: 0;
+        }
+        .payment-methods .method {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        .payment-methods .method img {
+            height: 30px;
+        }
+        .footer {
+            background-color: #820000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .footer .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .footer .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Bagi Berkah</h1>
+        <div class="user-icon"></div>
+    </div>
+    <div class="content">
+        <div class="payment-methods">
+            <h2>Metode Pembayaran</h2>
+            <div class="method">
+                <img src="gopay-logo.png" alt="Go-Pay"> <!-- Replace with actual icon URL -->
+                <span>Go-Pay</span>
+            </div>
+            <div class="method">
+                <img src="qris-logo.png" alt="QRIS"> <!-- Replace with actual icon URL -->
+                <span>QRIS</span>
+            </div>
+            <div class="method">
+                <img src="shopeepay-logo.png" alt="ShopeePay"> <!-- Replace with actual icon URL -->
+                <span>ShopeePay</span>
+            </div>
+            <div class="method">
+                <img src="dana-logo.png" alt="DANA"> <!-- Replace with actual icon URL -->
+                <span>DANA</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <img src="twitter-icon.png" alt="Twitter"> <!-- Replace with actual icon URL -->
+            <img src="facebook-icon.png" alt="Facebook"> <!-- Replace with actual icon URL -->
+            <img src="instagram-icon.png" alt="Instagram"> <!-- Replace with actual icon URL -->
+        </div>
+    </div>
+</body>
+</html>
